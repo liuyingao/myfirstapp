@@ -1,0 +1,7 @@
+GET http://localhost:4004/sap/opu/odata/sap/API_SALES_ORDER/OrderSet?$filter=grossamount le 60000
+
+###
+POST http://localhost:4004/sap/opu/odata/sap/API_SALES_ORDER/OrderSet
+Content-Type: application/json
+
+{"orderid":9000,"customername":"刘颖奥","contactperson":"jing","grossamount":9999,"currency":"EUR"}

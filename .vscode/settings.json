@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.gitignore": true,
+    "**/.git": true,
+    "**/.vscode": true
+},
+"sqltools.connections": [
+    {
+        "dialect": "SQLite",
+        "name": "mydbaccess",
+        "database": "/home/user/sapdev/yingao.db"
+    }
+],
+"git.ignoreLimitWarning": true
+}
